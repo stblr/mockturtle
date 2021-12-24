@@ -128,6 +128,7 @@ private:
 
     if ( ntk.level( nrl ) > ntk.level( nrr ) )
     {
+      std::swap( nrl, nrr );
       std::swap( srl, srr );
     }
     else if ( ntk.level( nrl ) == ntk.level( nrr ) )
